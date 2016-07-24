@@ -15,3 +15,9 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+
+Route::get('buy', function()
+{
+	return View::make('buy');
+});
