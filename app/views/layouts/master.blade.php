@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title></title>
+	<meta charset="utf-8">
+	<meta name="publishable-key" content ="{{ Config::get('stripe.publishable_key') }}">
 </head>
 <body>
 
@@ -10,7 +12,9 @@
 
 </div>
 
-<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+<script   src="http://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+<script src="https://js.stripe.com/v2/"></script>
+	@yield('footer')
 
 </body>
 </html>
