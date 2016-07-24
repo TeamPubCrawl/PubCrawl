@@ -4,7 +4,7 @@
 	
 	<h1>BUy For $10</h1>
 
-	{{Form: open()  }}
+	{{Form:open()  }}
  
 		<form action="" method="POST" id="payment-form">
   			<span class="payment-errors"></span>
