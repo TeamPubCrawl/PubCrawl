@@ -2,12 +2,12 @@
 
 @section('content')
 	
-	<h1>BUy For $10</h1>
+	<h1>Buy For $10</h1>
 
-	{{Form:open()  }}
+	{{ Form::open()  }}
  
-		<form action="" method="POST" id="payment-form">
-  			<span class="payment-errors"></span>
+		
+
 
   		<div class="form-row">
    			 <label>
@@ -33,8 +33,7 @@
   </div>
 
   <input type="submit" class="submit" value="Submit Payment">
-</form>
 
-	{{Form:close()  }}
+	{{ Form::close()  }}
 
 @stop
