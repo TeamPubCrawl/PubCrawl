@@ -7,6 +7,9 @@
 		"laravel/framework": "4.2.*",
 		"cartalyst/stripe-laravel": "1.0.*"
 	},
+	"repositories": [
+    { "type": "composer", "url": "https://packages.cartalyst.com" }
+],
 	"autoload": {
 		"classmap": [
 			"app/commands",
