@@ -4,12 +4,10 @@ use Illuminate\Auth\UserTrait;
 use Illuminate\Auth\UserInterface;
 use Illuminate\Auth\Reminders\RemindableTrait;
 use Illuminate\Auth\Reminders\RemindableInterface;
-use Cartalyst\Stripe\Billing\Laravel\Billable;
-use Cartalyst\Stripe\Billing\Laravel\BillableContract;
 
-class User extends Eloquent implements UserInterface, RemindableInterface,BillableContract {
+class User extends Eloquent implements UserInterface, RemindableInterface {
 
-	use UserTrait, RemindableTrait,Billable;
+	use UserTrait, RemindableTrait;
 
 	/**
 	 * The database table used by the model.
