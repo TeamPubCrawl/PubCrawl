@@ -24,8 +24,8 @@ return array(
 	),
 
 	'stripe' => array(
-		'model'  => 'User',
-		'secret' => '',
+		'secret' => 'sk_test_kwqeBLI94M1vLU6juNE3y0CM',
+		'version' => '2016-07-06',
 	),
 
 );

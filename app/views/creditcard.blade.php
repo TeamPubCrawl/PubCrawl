@@ -32,9 +32,21 @@
     </label>
   </div>
 
+ 
+
+<div class="form-row">
+    <label>
+      <span>Email Address:</span>
+      <input type="email" id="email" name="email">
+    </label>
+  </div>
+
   <input type="submit" class="submit" value="Submit Payment">
 
   	<div class="payment-errors"></div>
+
+
+
 
 	{{ Form::close()  }}
 
@@ -45,6 +57,5 @@
 
 @section('footer')
 
-	<script src="/js/billing.js"></script>
 
 @stop

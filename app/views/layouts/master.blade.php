@@ -3,7 +3,6 @@
 <head>
 	<title></title>
 	<meta charset="utf-8">
-	<meta name="publishable-key" content ="{{ Config::get('stripe.publishable_key') }}">
 </head>
 <body>
 

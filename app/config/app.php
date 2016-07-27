@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'debug' => false,
+	'debug' => true,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return array(
 	|
 	*/
 
-	'key' => 'WWiXvhEUe1X6gvGmqMcPtZemCXR8OcEh',
+	'key' => 'dr8aytaW2MgThrUnys8WgcxAdyoUU7GH',
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -121,6 +121,7 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+		'Cartalyst\Stripe\Laravel\StripeServiceProvider',
 
 	),
 
@@ -188,6 +189,7 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
+		'Stripe' 			=> 'Cartalyst\Stripe\Laravel\Facades\Stripe',	
 
 	),
 

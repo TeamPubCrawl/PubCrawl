@@ -20,4 +20,24 @@ class HomeController extends BaseController {
 		return View::make('hello');
 	}
 
+	public function showCreditCardForm(){
+
+		return View::make('creditcard');
+	}
+
+
+	public function processPayment(){
+
+		$stripe = Stripe::make();
+
+		$charge = $stripe->charges()->create([
+		    'customer' => 'cus_8tRDyEdPSC0jUO',
+		    'currency' => 'USD',
+		    'amount'   => 50.49,
+		]);
+
+		return $charge;
+
+	}
+
 }
