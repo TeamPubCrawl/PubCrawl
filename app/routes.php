@@ -19,3 +19,9 @@ Route::get('/', function()
 Route::get('/buy', 'HomeController@showCreditCardForm');
 Route::post('/buy', 'HomeController@processPayment');
 
+Route::get('/book', function()
+{
+
+	return View::make('/book');
+
+});
