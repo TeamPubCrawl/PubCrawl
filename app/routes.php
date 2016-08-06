@@ -16,12 +16,22 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
+
+//Billing
 Route::get('/buy', 'HomeController@showCreditCardForm');
 Route::post('/buy', 'HomeController@processPayment');
 
+
+//Booking
 Route::get('/book', function()
 {
 
 	return View::make('/book');
 
 });
+
+//Tour Routes
+Route::get('/routes', 'ToursController@showRoutes');
+Route::get('/the-perl','ToursController@PerlRoute');
+Route::get('/the-luxury','ToursController@LuxuryRoute');
+Route::get('/southeast-perl','ToursController@SoutheastRoute');
