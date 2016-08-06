@@ -21,7 +21,9 @@
 		<br><br>
 		<img src="https://static.wixstatic.com/media/4a5e47_09ba5e9199084b959f489209ff89cf75~mv2.jpg/v1/fill/w_308,h_317,al_c,q_80,usm_0.66_1.00_0.01/4a5e47_09ba5e9199084b959f489209ff89cf75~mv2.jpg" alt="Southeast Perl Route" >
 		<br><br>
-		<button type="button" class="btn btn-primary">Book</button>
+		
+		<a class="btn btn-primary" href="{{action('ToursController@showBooking')}}" role="button">Book</a>
+
 	</p>
 	</div>
 </div>
