@@ -17,7 +17,7 @@
 		<h3>THE PEARL TOUR</h3>
 		<br>
 		The Pearl tour takes you in and around the Pearl Brewery area. great for the modern industrial sight seeing, tantalizing food stops, coffee shops, retail stores, and SA's favorite LOCAL bars.
-		<br>
+		<br><br>
 		<a class="btn btn-primary" href="{{action('ToursController@PerlRoute')}}" role="button">Route</a>
 	</p>
 </div>

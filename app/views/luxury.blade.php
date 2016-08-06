@@ -20,7 +20,9 @@
 		<br><br>
 		<img src="https://static.wixstatic.com/media/4a5e47_d4664f3213734a719d9b594b67acecae~mv2.jpg/v1/fill/w_568,h_373,al_c,q_80,usm_0.66_1.00_0.01/4a5e47_d4664f3213734a719d9b594b67acecae~mv2.jpg" alt="Luxury Route" style="width:600px;height:230px;">
 		<br><br>
-		<button type="button" class="btn btn-primary">Book</button>
+		
+		<a class="btn btn-primary" href="{{action('ToursController@showBooking')}}" role="button">Book</a>
+		
 	</p>
 	</div>
 </div>

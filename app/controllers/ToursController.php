@@ -34,4 +34,11 @@ public function SoutheastRoute(){
 }
 
 
+public function showBooking(){
+
+	return View::make('book');
+
+}
+
+
 }
