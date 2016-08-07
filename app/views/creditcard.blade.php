@@ -1,20 +1,32 @@
 @extends('layouts.master')
 
+@section('style')
+  <link rel="stylesheet" type="text/css" href="/css/cyborg.css">
+  <link rel="stylesheet" type="text/css" href="/css/billing.css">
+
+
+@stop
+
 @section('content')
-	
-	<h1>Buy For $10</h1>
+	<div class="text-center">
+	<div class="logo left" >
+<img src="https://static.wixstatic.com/media/4a5e47_8100cd1eee394c42a484f8093452b8c2~mv2_d_1800_1800_s_2.png/v1/fill/w_189,h_189,al_c,usm_0.66_1.00_0.01/4a5e47_8100cd1eee394c42a484f8093452b8c2~mv2_d_1800_1800_s_2.png
+" alt="Mountain View" style="width:150px;height:150px;">
+</div>
+<h1>Purchase Tour</h1>
+  <br><br>
+  </div>
 
+
+  <div class="container" >
+ <div class="Absolute-Center is-Responsive">
 	{{ Form::open(['id' => 'billing-form'])  }}
- 
-		
 
-
-  		<div class="form-row">
    			 <label>
       			<span>Card Number</span>
       			<input type="text" size="20" data-stripe="number">
     		</label>
- 		 </div>
+ 		 
 
   		<div class="form-row">
     		<label>
@@ -41,16 +53,17 @@
     </label>
   </div>
 
-  <input type="submit" class="submit" value="Submit Payment">
+  <br><br>
+  <button type="submit" class="btn btn-default">Submit</button>
+
 
   	<div class="payment-errors"></div>
-
-
-
+</div>
+</div>
+</div>
 
 	{{ Form::close()  }}
-
-
+</div>
 
 
 @stop
