@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
 @section('style')
+	<link rel="stylesheet" type="text/css" href="/css/cyborg.css">
 	<link rel="stylesheet" type="text/css" href="/css/tourroutes.css">
 @stop
 
@@ -13,37 +14,55 @@
 
 <div class="column-left">
 	<div class="text-center col-md-4">
-	<p>
-		<h3>THE PEARL TOUR</h3>
-		<br>
-		The Pearl tour takes you in and around the Pearl Brewery area. great for the modern industrial sight seeing, tantalizing food stops, coffee shops, retail stores, and SA's favorite LOCAL bars.
-		<br><br>
-		<a class="btn btn-primary" href="{{action('ToursController@PerlRoute')}}" role="button">Route</a>
-	</p>
+			<h3>THE PEARL <br>TOUR</h3>
+			<br><br>
+		<div class="perl">
+		<p>
+			<br>
+			The Pearl tour takes you in and around the Pearl Brewery area. great for the modern industrial sight seeing, tantalizing food stops, coffee shops, retail stores, and SA's favorite LOCAL bars.
+			<br><br>
+			</br></br>
+			<a class="btn btn-primary" href="{{action('ToursController@PerlRoute')}}" role="button">Route</a>
+			<br><br>
+		</p>
+		</div>
+	</div>
 </div>
 
 <div class="column-center">
 	<div class="text-center col-md-4">
+		<h3>THE LUXURY <br> TOUR</h3>
+		<br><br>
+		<div class="luxury">
 		<p>
-			<h3>THE LUXURY TOUR</h3>
+		
 			<br>
 			Not only can you enjoy the beautiful Pearl area, we venture a bit south, past the Grotto, the riverwalk and art museum to Luxury.  A relaxing, laidback, unique outdoor food and brew spot. 
 			<br><br>
+			</br></br>
 			<a class="btn btn-primary" href="{{action('ToursController@LuxuryRoute')}}" role="button">Route</a>
-
+			<br><br>
 		</p>
+		</div>
 	</div>
 </div>
 
 <div class="column-right">
+<h3>THE SOUTH-EAST <br>PEARL TOUR</h3>
+	<br><br>
 	<div class="text-center col-md-4">
+		
+		<div class="southeast">
 		<p>
-			<h3>SOUTHEAST PEARL TOUR</h3>
 			<br>
 			If you're looking for a tour emphasizing on a longer pedal adventure, this is the route for you! Enjoy the sights as we pedal the metal to a fun new beer garden and a hoppy pub.
 			<br><br>
+			<br><br>
+			
 			<a class="btn btn-primary" href="{{action('ToursController@SoutheastRoute')}}" role="button">Route</a>
+			<br><br>
 		</p>
+		</div>
 	</div>
 </div>
 
