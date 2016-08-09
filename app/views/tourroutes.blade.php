@@ -13,6 +13,10 @@
 
 	<h1> Tour Routes </h1>
 </div>
+@section('navbar')
+	@include('navbar')
+@stop
+
 @section('content')
 
 <div class="container text-center">	

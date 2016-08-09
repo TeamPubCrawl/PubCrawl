@@ -6,7 +6,8 @@
 @stop
 
 
-	@section('content')
+
+@section('navbar')
 		<div class="text-center">
 			<div class="container">
 
@@ -15,6 +16,13 @@
 
 
 				<h1> Book Your Tour </h1>
+				</div>
+		</div>
+	@include('navbar')
+@stop
+
+@section('content')
+				<div class="text-center">
 					<div class="perl">
 	
 						<br><br>
@@ -25,8 +33,8 @@
 						<br><br>
 
 					</div>
-			</div>
-		</div>
+					</div>
+		
 	@stop
 </body>
 

@@ -16,8 +16,20 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
+//Home Controller
+Route::get('/', 'HomeController@showHome');
+Route::get('/home', 'HomeController@showHome');
 
-//Billing
+//Authentication Controller
+Route::get('/login', 'AuthenticationController@showLoginView');
+Route::post('/login', 'AuthenticationController@loginUser');
+Route::get('/logout', 'AuthenticationController@logout');
+
+//Registration Controller
+Route::get('/signup', 'RegistrationController@showSignUpView');
+Route::post('/signup', 'RegistrationController@signUp');
+
+//Billings
 Route::get('/buy', 'HomeController@showCreditCardForm');
 Route::post('/buy', 'HomeController@processPayment');
 

@@ -1,0 +1,24 @@
+body{
+	background-color: black;
+}
+h1{
+	color: white;
+}
+
+.col-md-6{
+	background-color: yellow;
+}
+
+.container {
+	background-color: yellow;
+    background:  url();
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+	width: 100%;
+	background: #f8f8f8;
+	text-align: center;
+}
+
