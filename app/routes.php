@@ -45,3 +45,7 @@ Route::get('/the-perl','ToursController@PerlRoute');
 Route::get('/the-luxury','ToursController@LuxuryRoute');
 Route::get('/southeast-perl','ToursController@SoutheastRoute');
 Route::get('/book', 'ToursController@showBooking');
+
+//Contact Us
+Route::get('/contactUs', 'ContactController@showContactForm');
+Route::post('/contactUs', 'EmailController@sendEmail');

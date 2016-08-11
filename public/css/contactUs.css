@@ -1,0 +1,70 @@
+body{
+	background-color: black;
+}
+h1{
+	color: white;
+}
+
+h3{
+	color: white;
+}
+
+.container {
+	background-color: yellow;
+    background:  url();
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+textarea {
+    width: 35%;
+    height: 220px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+input[type=email] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
+
+input[type=email]:focus {
+    background-color: lightblue;
+}
+
+.navbar .navbar-nav{
+	
+	background: #f8f8f8;
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+	
+}
+
+.navbar .navbar-collapse{
+	text-align: center;
+}
+
