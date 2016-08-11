@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('style')
-	<link rel="stylesheet" type="text/css" href="/css/cyborg.css">
+	<link rel="stylesheet" type="text/css" href="/css/home.css">
 	<link rel="stylesheet" type="text/css" href="/css/route.css">
 	<link rel="stylesheet" type="text/css" href="/css/navbar.css">
 @stop
@@ -14,6 +14,11 @@
 
 	<h1> SOUTHEAST PEARL ROUTE </h1>
 </div>
+
+@section('navbar')
+	@include('navbar')
+@stop
+
 @section('content')
 
 <div class="container text-center">	

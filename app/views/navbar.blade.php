@@ -9,26 +9,11 @@
     <div>
       <ul class = "nav navbar-nav text-center">
         <li><a href = "/home">Home</a></li>
-         <li><a href = "/book">Book a Tour</a></li>
-         <li><a href = "/routes">Routes</a></li>
-         <li><a href = "#">Special Events</a></li>
-			
-         <li class = "dropdown">
-            <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">
-               More 
-               <b class = "caret"></b>
-            </a>
-            
-            <ul class = "dropdown-menu">
-               <li><a href = "#">Details</a></li>
-               <li><a href = "#">FAQ</a></li>
-               <li><a href = "#">Gallery</a></li>
-               <li><a href = "#">About Us</a></li>
-               <li><a href = "#">Contact Us</a></li>
-            </ul>
-            
-         </li>
-                <li><a href = "/login">Sign In</a></li> 
+        <li><a href = "/book">Book a Tour</a></li>
+        <li><a href = "/routes">Routes</a></li>
+        <li><a href = "#">Special Events</a></li>
+        <li><a href = "#">Contact Us</a></li>
+        <li><a href = "/login">Sign In</a></li> 
     </div>
 
 
