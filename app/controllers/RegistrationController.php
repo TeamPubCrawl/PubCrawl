@@ -32,6 +32,8 @@ class RegistrationController extends \BaseController{
 			
 		]);
 
+
+
 		if($validation->fails()){
             $messages = $validation->messages();
             Session::flash('validation_messages', $messages);
@@ -43,19 +45,18 @@ class RegistrationController extends \BaseController{
 		$password = Input::get('password');
 		$repassword = Input::get('repassword');
 
-
 		try{
 
 			User::create([
 				'name' => $name,
 				'email'	=> $email,
-				'password'	=> Hash::make($password),
+				'password'	=> Hash::make($password)
 			]);
 
 		}catch(Exception $e){
 
 			//Errors Log 
-			 Session::flash('error_message', 'Oops! Something is wrong!');
+			 Session::flash('error_message', '' . $e);
 			return Redirect::back()->withInput();
 		}
 
@@ -63,16 +64,5 @@ class RegistrationController extends \BaseController{
 		Session::flash('success_message', 'Success! Thanks for Signing up!');
 		return Redirect::to('/home');
 
-	}
-
-	/* Unused code
-	
-
-		// Code to send verification code
-        Mail::send('emails.verify', $view_data, function ($message) use ($email_data) {
-            $message->to($email_data['recipient'])
-                ->subject($email_data['subject']);
-        });
-
-    */     
+	}   
 }

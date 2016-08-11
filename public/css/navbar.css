@@ -3,10 +3,9 @@
 	background: #f8f8f8;
 	display: inline-block;
 	float: none;
-	vertical-align: top;
-	
+	vertical-align: top;	
 }
 
 .navbar .navbar-collapse{
 	text-align: center;
-}s
+}

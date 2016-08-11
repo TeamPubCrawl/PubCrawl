@@ -6,6 +6,7 @@
 
 @section('style')
   <link rel="stylesheet" type="text/css" href="/css/home.css">
+  <link rel="stylesheet" type="text/css" href="/css/navbar.css">
 @stop
 
 <div class="text-center">

@@ -15,16 +15,3 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-.navbar .navbar-nav{
-	
-	background: #f8f8f8;
-	display: inline-block;
-	float: none;
-	vertical-align: top;
-	
-}
-
-.navbar .navbar-collapse{
-	text-align: center;
-}

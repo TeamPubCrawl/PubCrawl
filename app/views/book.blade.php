@@ -3,6 +3,7 @@
 
 @section('style')
 		<link rel="stylesheet" type="text/css" href="/css/book.css">
+		<link rel="stylesheet" type="text/css" href="/css/navbar.css">
 @stop
 
 
