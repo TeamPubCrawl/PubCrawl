@@ -12,7 +12,7 @@
         <li><a href = "/book">Book a Tour</a></li>
         <li><a href = "/routes">Routes</a></li>
         <li><a href = "#">Special Events</a></li>
-        <li><a href = "#">Contact Us</a></li>
+        <li><a href = "/contactUs">Contact Us</a></li>
         <li><a href = "/login">Sign In</a></li> 
     </div>
 
