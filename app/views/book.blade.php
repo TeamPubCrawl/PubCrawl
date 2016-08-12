@@ -6,6 +6,9 @@
 		<link rel="stylesheet" type="text/css" href="/css/navbar.css">
 @stop
 
+@section('title')
+	<title>Booking</title>
+@stop
 
 
 @section('navbar')
