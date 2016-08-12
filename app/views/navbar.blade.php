@@ -11,7 +11,7 @@
         <li><a href = "/home">Home</a></li>
         <li><a href = "/book">Book a Tour</a></li>
         <li><a href = "/routes">Routes</a></li>
-        <li><a href = "#">Special Events</a></li>
+        <li><a href = "/events">Special Events</a></li>
         <li><a href = "/contactUs">Contact Us</a></li>
         <li><a href = "/login">Sign In</a></li> 
     </div>

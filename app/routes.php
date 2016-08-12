@@ -49,3 +49,7 @@ Route::get('/book', 'ToursController@showBooking');
 //Contact Us
 Route::get('/contactUs', 'ContactController@showContactForm');
 Route::post('/contactUs', 'EmailController@sendEmail');
+
+//Special Events
+Route::get('/events', 'EventsController@showForm');
+Route::post('/events', 'EventsController@sendEmail');
