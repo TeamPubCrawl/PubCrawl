@@ -13,6 +13,8 @@
   <title>Check Out</title>
 @stop
 
+
+
 @section('content')
 	<div class="text-center">
 	<div class="logo left" >
@@ -20,6 +22,8 @@
 " alt="Logo" style="width:150px;height:150px;">
 </div>
 <h1>Purchase Tour</h1>
+<br>
+
   <br><br>
   </div>
 
@@ -27,7 +31,8 @@
   <div class="container" >
  <div class="Absolute-Center is-Responsive">
 	{{ Form::open(['id' => 'billing-form'])  }}
-
+<br>
+<br>
    			 <label>
       			<span>Card Number</span>
       			<input type="text" size="20" data-stripe="number">
