@@ -88,7 +88,7 @@
 <br><br></div>
 <div class ="intro text-center">
 <h3>
-San Antonio's orginal 15 person petal tour<br>
+San Antonio's original 15 person petal tour<br>
 ​BYOB Music Lights Sights Food Parties Friends<br>
 Family Outdoors Fitness Pubs Events<br>
 KEEPING IT LOCAL​ ​​
