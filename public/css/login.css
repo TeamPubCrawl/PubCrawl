@@ -28,9 +28,15 @@ color: white;
 }
 
 .btn-primary{
-	background: black;
-	color: grey;
+	background: grey;
+	color: black;
 	border: 0 none;
 	box-shadow: 2px 2px grey;
 }
 
+.btn-primary:hover {
+    background: #222;
+    outline: none;
+    border: none;
+    
+}
