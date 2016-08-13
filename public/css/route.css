@@ -2,13 +2,17 @@ h3{
 	color: black;
 }
 
+body {
+	background-color: black;
+	font-family: Georgia;
+}
+
 .container {
 	background-color: yellow;
     background:  url();
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 
 .perl{
@@ -30,8 +34,6 @@ h3{
 	border: 0 none;
 	box-shadow: 2px 2px grey;
 }
-
-
 
 .btn-primary:hover {
 	background: yellow;

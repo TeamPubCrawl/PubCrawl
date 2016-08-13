@@ -22,3 +22,10 @@ h1{
 	text-align: center;
 }
 
+.btn-primary{
+	background: black;
+	color: grey;
+	border: 0 none;
+	box-shadow: 2px 2px grey;
+}
+

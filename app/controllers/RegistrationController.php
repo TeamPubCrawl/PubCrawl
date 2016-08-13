@@ -62,7 +62,7 @@ class RegistrationController extends \BaseController{
 
 
 		Session::flash('success_message', 'Success! Thanks for Signing up!');
-		return Redirect::to('/home');
+		return View::make('home');
 
 	}   
 }

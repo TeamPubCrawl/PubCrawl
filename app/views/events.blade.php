@@ -11,7 +11,7 @@
 " alt="Logo" style="width:150px;height:150px;">
 
 
-	<h1> Contact Us! </h1>
+	<h1> Special Event Booking </h1>
 </div>
 @section('navbar')
 	@include('navbar')
@@ -22,10 +22,16 @@
 @stop
 
 @section('content')
+
+\
+
+
 <!-- Simple form to get pertinent info:-->
 	<div class="container text-center">	
+
 		<!-- change line(s) to suit needs-->
 		<h3>Send us a message about your special event!</h3>
+
 		
 		<!-- controller to send info to-->
 		{{Form::open(['action' => 'EventsController@sendEmail', 'method' => 'POST'])}}
@@ -40,6 +46,8 @@
 			
 		{{Form::close()}}
 	</div>
+
+
 
 @stop
 

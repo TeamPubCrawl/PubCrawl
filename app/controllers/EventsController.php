@@ -3,10 +3,10 @@ require 'vendor/autoload.php';
 
 use GuzzleHttp\Post\PostFile;             
 use Mailgun\Mailgun;
-use Mail;
-use User;
+// use Mail;
+// use User;
 use Illuminate\Http\Request;
-use \Swift_RfcComplianceException;
+// use \Swift_RfcComplianceException;
 
 class EventsController extends Controller{
 

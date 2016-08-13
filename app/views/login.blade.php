@@ -30,7 +30,7 @@
 		<!--col 1 -->
 		<div class="col-md-3">
 		</div>
-		<
+		
 
 		<!--col 2 -->
 		<div class="col-md-6 myform">

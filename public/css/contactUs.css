@@ -15,6 +15,9 @@ h3{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.col-md-6{
+    background-color: yellow;
+}
 
 textarea {
     width: 35%;
@@ -55,6 +58,13 @@ input[type=email]:focus {
     background-color: lightblue;
 }
 
+.btn-primary{
+    background: white;
+    color: black;
+    border: 0 none;
+    box-shadow: 2px 2px grey;
+}
+
 .navbar .navbar-nav{
 	
 	background: #f8f8f8;
@@ -70,6 +80,7 @@ input[type=email]:focus {
 
 .btn-primary{
     background: #333;
+    color: white;
     outline: none;
     border: none;
 }
