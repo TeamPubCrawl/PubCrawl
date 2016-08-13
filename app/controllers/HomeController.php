@@ -20,6 +20,10 @@ class HomeController extends BaseController {
 		return View::make('home');
 	}
 
+	public function showConfirm(){
+		return View::make('confirm');
+	}
+
 	public function showCreditCardForm(){
 
 		return View::make('creditcard');
@@ -36,7 +40,8 @@ class HomeController extends BaseController {
 		    'amount'   => 50.49,
 		]);
 
-		return $charge;
+		// return $charge;
+		return Redirect::to('/confirm');
 
 	}
 

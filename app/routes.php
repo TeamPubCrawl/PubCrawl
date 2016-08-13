@@ -16,6 +16,9 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
+//Confirm
+Route::get('/confirm', 'HomeController@showConfirm');
+
 //Home Controller
 Route::get('/', 'HomeController@showHome');
 Route::get('/home', 'HomeController@showHome');
